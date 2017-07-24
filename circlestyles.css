@@ -1,0 +1,13 @@
+body {
+	background-color: #0CF5C3;
+}
+
+#circle {
+      width: 150px;
+      height: 150px;
+      -webkit-border-radius: 100%;
+      -moz-border-radius: 100%;
+      border-radius: 100%;
+      background: peachpuff;
+    }
+

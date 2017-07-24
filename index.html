@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+  <head>
+  <title>Calculate Circle Area Here!</title>
+
+   <link rel = "stylesheet" type="text/css" href = "circlestyles.css" />
+   <script type="text/javascript" src="circlescript.js"></script>
+
+  </head>
+
+  <body>
+  <div class="container">
+   </div>
+
+	<div>
+		<form id="calculateradius" action="" method="get">
+  		<form action="/action_page.php">
+	 	<label for="userinput">Please Enter Your Radius Here!</label>
+     	<textarea id="userinput" name="userinput" style="height:50px, width:100px"></textarea>
+     	<input type="button" value="calculate your area" onclick="areaOfCircle();showArea();" id="submit"></input>
+
+
+
+    
+  		</form>
+	</div>
+
+	<div id="circle"></div>
+
+  <div>
+  <p id="userMsg"></p>
+  </div>
+    
+  </body>
+
+  </html>
+
+ 
+
