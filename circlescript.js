@@ -13,7 +13,12 @@
     	function showArea(){
   		var userInput = document.getElementById("userinput").value;
   		document.getElementById("userMsg").innerHTML = "The area of a circle with a radius of " + radius + " is " + area;
-}
+
+  		document.getElementById("circle").style.width = radius + "px";
+  		document.getElementById("circle").style.height = radius + "px";
+		}
+
+
     	
     	
 
